@@ -20,7 +20,7 @@ export default function Home() {
     setTonWalletAddress(null);
 
     console.log("Success wallet disconnect");
-    setIsLoading(true);
+    setIsLoading(false);
   }, []);
 
   useEffect(() => {
